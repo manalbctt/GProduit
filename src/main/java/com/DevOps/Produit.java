@@ -7,9 +7,6 @@ public class Produit {
     private double prix;    // Prix du produit
     private int quantite;   // Quantité du produit
 
-    public Produit() {
-    }
-
     // Constructeur d'un nouveau Produit avec les paramètres spécifiés
     public Produit(final Long id, final String nom, final double prix, final int quantite) {
         this.setId(id);
