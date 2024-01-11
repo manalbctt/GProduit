@@ -7,7 +7,7 @@ public class Produit {
     private double prix;    // Prix du produit
     private int quantite;   // Quantité du produit
 
-    public Produit() {
+    public Produit() {;
     }
 
     // Constructeur d'un nouveau Produit avec les paramètres spécifiés
